@@ -1,13 +1,13 @@
-nav {
+nav p {
     font-family: sans-serif;
-    margin: 5rem auto;
+    margin: 5rem auto 0 auto;
     text-align: center;
     font-size: 30px;
     width: 100%;
     position: relative;
   }
   
-  nav:before {
+  nav p:before {
     content: "";
     display: block;
     width: 44%;
@@ -18,7 +18,7 @@ nav {
     position: absolute;
   }
   
-  nav:after {
+  nav p:after {
     content: "";
     display: block;
     width: 44%;
@@ -30,7 +30,8 @@ nav {
   }
 
   nav picture img{
-    width: 8%;
+    /* padding-top: 2rem; */
+    width: 12%;
     height: auto;
     vertical-align: middle;
     overflow: hidden;
@@ -58,67 +59,25 @@ nav {
  .navbar ul {
     background-color: #f2f2f2;
     list-style: none;
-    display: flex;
-    padding: 1rem 2rem;
+    /* display: flex; */
+    padding: 0rem 0rem;
+    /* margin-bottom: 4rem; */
  }
   @media (min-width: 768px) {
     .navbar ul {
-      padding: 1rem 5rem;
+      padding: 0.6rem 5rem;
    }
  }
   .navbar li {
     display: inline;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
  }
   @media (min-width: 768px) {
     .navbar li {
-      font-size: 2rem;
+      font-size: 1.25rem;
    }
  }
-  /* .navbar .breadcrumb-item__cart-link {
-    display: flex;
- } */
-  .navbar ul + .navbar li::before {
-    color: #000;
-    content: '/\00a0';
-    padding: 1rem;
- }
-  .breadcrumb-item__cart {
-    margin-left: auto;
-    display: flex;
-    gap: 0.5rem;
- }
-  .breadcrumb-item_carticon {
-    display: inline-block;
-    position: relative;
-    padding-right: 10px;
- }
-  .breadcrumb-item_carticon svg {
-    width: 18px;
-    margin-top: 10px;
- }
-  .breadcrumb-item_cartcount {
-    margin-left: 5px;
-    background-color: #ff6161;
-    border-radius: 10px;
-    height: 24px;
-    font-size: 17px;
-    margin-top: -9px;
-    z-index: 990;
-    position: absolute;
- }
-  .breadcrumb-item_carttext {
-    align-self: center;
-    font-weight: 500;
-    font-size: 2rem;
- }
-  .breadcrumb-trail {
-    color: #2954ff;
-    text-decoration: none;
- }
-  .breadcrumb-trail:hover {
-    color: #103be6;
-    text-decoration: underline;
-    text-underline-offset: 0.25rem;
- }
-  
+
+

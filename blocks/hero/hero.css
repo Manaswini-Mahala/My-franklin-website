@@ -1,14 +1,16 @@
 /* block specific CSS goes here */
 
-main .hero-container > div {
+main .hero-container>div {
     max-width: unset;
 }
-  
+
 main .hero-container {
     padding: 0;
-    padding-top: 6rem;
+    padding-top: 12rem;
 }
-  
+
+
+
 main .hero {
     position: relative;
     padding: 32px;
@@ -42,7 +44,7 @@ main .hero picture {
     opacity: 0.9;
 }
 
-.hero:hover picture{
+/* .hero:hover picture{
     opacity: 0.7;
 }
 
@@ -50,50 +52,74 @@ main .hero picture {
     color: black;
     font-size: 2.8rem;
     transition-duration: 0.5s;
-}
+} */
 
 main .hero img {
-   
+
     /* object-fit: cover; */
     width: 70%;
     height: auto;
 }
 
-@media screen and (max-width:807px){
-    main .hero h1{
+@media screen and (max-width:807px) {
+    main .hero h1 {
         font-size: 2rem;
     }
 
-    main .hero img{
+    main .hero img {
         object-fit: cover;
     }
 }
 
-@media screen and (min-width:1130px){
-    main .hero img{
+@media screen and (min-width:1130px) {
+    main .hero img {
         object-fit: cover;
+    }
+
+
+}
+
+@media screen and (max-width:1130px) {
+
+
+    main .hero-container {
+        padding-top: 10rem;
     }
 }
 
-@media screen and (max-width:807px){
-    main .hero h1{
+@media screen and (max-width:807px) {
+    main .hero h1 {
         font-size: 2rem;
     }
 
-    main .hero img{
+    main .hero img {
         object-fit: cover;
         width: 80%;
     }
+
+    main .hero-container {
+        padding-top: 8rem;
+    }
 }
 
 
-@media screen and (max-width:468px){
-    main .hero h1{
+@media screen and (max-width:468px) {
+    main .hero h1 {
         font-size: 2rem;
     }
 
-    main .hero img{
+    main .hero img {
         object-fit: cover;
         width: 90%;
+    }
+
+    main .hero-container {
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (min-width:1255px){
+    main .hero-container {
+        padding-top: 15rem;
     }
 }

@@ -7,6 +7,12 @@ main .headertext-container {
   justify-content: center;
 }
 
+
+main .article-header-left{
+  padding-top: 12rem;
+}
+
+
 main .section.article-columns-container {
   padding: 6px 32px;
 } 
@@ -24,7 +30,7 @@ main .section.article-columns-container {
 }
 
 .article-header-left h4 {
-  text-align: left;
+  text-align: center;
 }
 .article-header-left p {
   font-size: 1rem;
@@ -63,5 +69,14 @@ main .section.article-columns-container {
   }
   .see-also-text .button-container {
     display: inherit;
+  }
+
+  main .article-header-left{
+    padding-top: 9rem;
+  }
+}
+@media screen and (max-width:750px){
+  main .article-header-left{
+    padding-top: 4.5rem;
   }
 }
