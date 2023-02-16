@@ -4,27 +4,35 @@ main .banner-content-container {
 main .banner-content-container > div {
   max-width: unset;
 }
-main .banner-content-container .banner-content {
-  position: relative;
+main .banner-content-container .banner-content{
+
+  display: flex;
+  justify-content: center;
+  width:85%;
+  padding-top: 1.5rem;
+
+  /* position: relative; */
 }
 .banner-image {
   text-align: center;
 }
 .banner-image picture {
   display: flex;
+  justify-content: center;
 }
 .banner-image picture img {
-  width: 100%;
+  width: 70%;
 }
 .banner-image-content {
-  position: absolute;
-  width: 50%;
+  /* padding-top: 3rem; */
+  /* position: absolute; */
+  /* margin: 0; */
   height: 100%;
-  right: 0;
-  top: 0;
-  display: flex;
+  /* right: 0; */
+  /* top: 0; */
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   box-sizing: border-box;
   padding: 0 2rem 0 4rem;
 }
@@ -32,11 +40,14 @@ main .banner-content-container .banner-content {
   font-size: var(--heading-font-size-m);
   letter-spacing: 0.225rem;
   margin: 0;
+  text-align: center;
+  padding-bottom: 0.6rem;
 }
 .banner-image-content p {
   font-size: 0.95rem;
   font-style: normal;
   font-weight: 300;
+  text-align: justify;
 }
 .banner-image-content .button-container em a {
   background: #000;
@@ -49,6 +60,7 @@ main .banner-content-container .banner-content {
   border-radius: 0;
   line-height: 1.1;
   font-size: 0.8rem;
+  border-radius: 0.2rem;
 }
 .banner-image-content .button-container em a:hover {
   background: #d2b365;
@@ -56,16 +68,45 @@ main .banner-content-container .banner-content {
 }
 @media (max-width: 992px) {
   .banner-image-content {
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    /* width: 100%;
     padding-top: 2rem;
     padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 1.5rem; */
+    padding: 0 1rem 0 4rem;
+
+
   }
   .banner-image-content .button-container {
     text-align: center;
   }
   .banner-image-content h1 {
     font-size: var(--heading-font-size-xs);
+  }
+}
+
+@media screen and (max-width:692px){
+  .banner-image-content{
+    padding: 0 1rem 0 3rem;
+  }
+}
+
+
+@media screen and (max-width:440px){
+  .banner-image-content{
+    padding: 0 1rem 0 1.5rem;
+  }
+}
+
+
+@media screen and (min-width: 1051px){
+  .banner-image-content{
+    padding: 0 1rem 0 6rem;
+  }
+}
+
+@media screen and (min-width: 1355px){
+  .banner-image-content{
+    padding: 0 1rem 0 7.25rem;
   }
 }
