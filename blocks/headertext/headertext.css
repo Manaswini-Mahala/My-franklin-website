@@ -77,13 +77,13 @@ main .section.article-columns-container {
 }
 @media screen and (max-width:750px){
   main .article-header-left{
-    padding-top: 6rem;
+    padding-top: 5rem;
   }
 }
 
 @media screen and (max-width:400px){
   main .article-header-left{
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
 }
 

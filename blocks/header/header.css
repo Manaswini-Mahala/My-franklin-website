@@ -1,6 +1,6 @@
 nav p {
     font-family: sans-serif;
-    margin: 5rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     text-align: center;
     font-size: 30px;
     width: 100%;
@@ -59,7 +59,7 @@ nav p {
     background-color: #f2f2f2;
     list-style: none;
     /* display: flex; */
-    padding: 0rem 0rem;
+    padding: 0rem 1rem;
     /* margin-bottom: 4rem; */
  }
   @media (min-width: 768px) {
@@ -73,6 +73,10 @@ nav p {
     font-weight: 300;
     letter-spacing: 0.1rem;
  }
+
+ .navbar li:nth-child(2) a{
+  color: black;
+}
   @media (min-width: 768px) {
     .navbar li {
       font-size: 1.25rem;

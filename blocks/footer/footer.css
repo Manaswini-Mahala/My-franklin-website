@@ -1,15 +1,111 @@
 footer {
-  padding: 2rem;
+  padding: 1rem 2rem;
   background-color: var(--text-color);
   font-size: var(--body-font-size-s);
   color: #fff;
+  background-color: #f2f2f2;
+  border-top: 0.2rem solid black;
+  /* display: flex; */
 }
 
+footer .footer{
+  /* padding: 0 1rem; */
+}
+
+footer .footer div div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
+}
+
+footer .footer div div p:first-child{
+  color: black;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 0.06rem;
+}
+
+footer .footer div div p:nth-child(2){
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer div div ul{
+  display: flex;
+  
+}
+
+footer .footer div div ul li{
+  list-style: none;
+  padding: 0 0.8rem;
+  text-decoration: underline;
+  color: #413f47;
+  letter-spacing: 0.08rem;
+  font-size: 1.1rem;
+  
+}
+
+footer .footer div div ul li a{
+  color: #413f47;
+  
+}
+
+
+footer .footer picture{
+  display: flex;
+  justify-content: center;
+}
+
+
+footer .footer img{
+  width: 6.8rem;
+  height: auto;
+}
+
+
 footer .footer {
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  max-width: 100%;
   margin: auto;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+@media screen and (max-width:780px) {
+
+  footer .footer div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer .footer div div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 0;
+    
+  }
+
+  footer .footer div div ul li{
+    list-style: none;
+    padding: 0.6rem 0.8rem;
+    text-decoration: underline;
+    text-align: center;
+    color: #413f47;
+    
+  }
+
+  footer .footer div div p:first-child{
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+
+  
 }
