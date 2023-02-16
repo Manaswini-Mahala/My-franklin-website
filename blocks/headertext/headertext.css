@@ -9,7 +9,7 @@ main .headertext-container {
 
 
 main .article-header-left{
-  padding-top: 8rem;
+  padding-top: 10rem;
 }
 
 
@@ -72,17 +72,23 @@ main .section.article-columns-container {
   }
 
   main .article-header-left{
-    padding-top: 6rem;
+    padding-top: 8rem;
   }
 }
 @media screen and (max-width:750px){
   main .article-header-left{
-    padding-top: 4.5rem;
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  main .article-header-left{
+    padding-top: 4rem;
   }
 }
 
 @media screen and (min-width:1300px){
   main .article-header-left{
-    padding-top: 11rem;
+    padding-top: 13rem;
   }
 }

@@ -35,3 +35,7 @@ main .about-container {
     padding: 0px 16px;
   }
 }
+
+.about-card-wrapper{
+  width: 88%;
+}

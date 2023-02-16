@@ -6,7 +6,7 @@ main .hero-container>div {
 
 main .hero-container {
     padding: 0;
-    padding-top: 12rem;
+    padding-top: 14rem;
 }
 
 
@@ -98,7 +98,7 @@ main .hero img {
     }
 
     main .hero-container {
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
 }
 
@@ -120,6 +120,6 @@ main .hero img {
 
 @media screen and (min-width:1255px){
     main .hero-container {
-        padding-top: 13rem;
+        padding-top: 15rem;
     }
 }
