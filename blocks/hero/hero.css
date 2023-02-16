@@ -98,7 +98,7 @@ main .hero img {
     }
 
     main .hero-container {
-        padding-top: 8rem;
+        padding-top: 6rem;
     }
 }
 
@@ -120,6 +120,6 @@ main .hero img {
 
 @media screen and (min-width:1255px){
     main .hero-container {
-        padding-top: 15rem;
+        padding-top: 13rem;
     }
 }

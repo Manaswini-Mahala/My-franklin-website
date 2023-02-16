@@ -54,7 +54,7 @@ nav p {
     /* background-color: blue; */
   }
 
-/* 
+
  .navbar ul {
     background-color: #f2f2f2;
     list-style: none;
@@ -78,50 +78,5 @@ nav p {
       font-size: 1.25rem;
    }
  }
-  /* .navbar .breadcrumb-item__cart-link {
-    display: flex;
- } */
-  .navbar ul + .navbar li::before {
-    color: #000;
-    content: '/\00a0';
-    padding: 1rem;
- }
-  .breadcrumb-item__cart {
-    margin-left: auto;
-    display: flex;
-    gap: 0.5rem;
- }
-  .breadcrumb-item_carticon {
-    display: inline-block;
-    position: relative;
-    padding-right: 10px;
- }
-  .breadcrumb-item_carticon svg {
-    width: 18px;
-    margin-top: 10px;
- }
-  .breadcrumb-item_cartcount {
-    margin-left: 5px;
-    background-color: #ff6161;
-    border-radius: 10px;
-    height: 24px;
-    font-size: 17px;
-    margin-top: -9px;
-    z-index: 990;
-    position: absolute;
- }
-  .breadcrumb-item_carttext {
-    align-self: center;
-    font-weight: 500;
-    font-size: 2rem;
- }
-  .breadcrumb-trail {
-    color: #2954ff;
-    text-decoration: none;
- }
-  .breadcrumb-trail:hover {
-    color: #103be6;
-    text-decoration: underline;
-    text-underline-offset: 0.25rem;
- }
+
   
